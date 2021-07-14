@@ -33,6 +33,8 @@ namespace LanchesMac
             services.AddTransient<ICategoriaRepository, CatergoriaRepository>();
             services.AddTransient<ILancheRepository, LancheRepository>();
 
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +43,8 @@ namespace LanchesMac
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
+
             }
             else
             {

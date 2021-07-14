@@ -17,4 +17,6 @@ namespace LanchesMac.Repositories
         }
         public IEnumerable<Categoria> Categorias => _context.Categorias;
     }
+
+
 }

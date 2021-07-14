@@ -22,7 +22,7 @@ namespace LanchesMac.Models
 
         public decimal Preco { get; set; }
         [StringLength(100)]
-
+        [Display(Name = "Imagem")]
         public string ImagemUrl { get; set; }
         [StringLength(100)]
         public string ImagemThumbnailUrl { get; set; }
