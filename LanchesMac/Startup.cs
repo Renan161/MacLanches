@@ -1,7 +1,9 @@
 using LanchesMac.Context;
+using LanchesMac.Models;
 using LanchesMac.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -32,6 +34,10 @@ namespace LanchesMac
 
             services.AddTransient<ICategoriaRepository, CatergoriaRepository>();
             services.AddTransient<ILancheRepository, LancheRepository>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(cp => CarrinhoCompra.GetCarrinho(cp));
+            services.AddDistributedMemoryCache();
+            services.AddSession();
 
             
 
@@ -54,6 +60,7 @@ namespace LanchesMac
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
 
