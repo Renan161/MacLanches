@@ -82,9 +82,12 @@ namespace LanchesMac.Models
 
         public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
-            return CarrinhoCompraItens ?? (CarrinhoCompraItens = _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
-                .Include(s => s.Lanche)
-                .ToList());
+            return CarrinhoCompraItens ??
+       (CarrinhoCompraItens =
+           _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+               .Include(s => s.Lanche)
+               .ToList());
+
         }
 
         public void LimparCarrinho()

@@ -34,7 +34,7 @@ using LanchesMac.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c601af52f47ce7e1d8d2a878b3de0ef5c2c6f2ed", @"/Views/Shared/_LanchesResumoView.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7e2e2c91193b66902d69037864d377d9b6eabe14", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8c3015c2164638f4de89da923f14829a5162d1b3", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__LanchesResumoView : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Lanche>
     {
         #pragma warning disable 1998

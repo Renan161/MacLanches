@@ -149,3 +149,5 @@ C:\Users\Mateus Santos\source\repos\LanchesMac\LanchesMac\bin\Debug\net5.0\Micro
 C:\Users\Mateus Santos\source\repos\LanchesMac\LanchesMac\obj\Debug\net5.0\Razor\Views\Shared\_LanchesResumoView.cshtml.g.cs
 C:\Users\Mateus Santos\source\repos\LanchesMac\LanchesMac\obj\Debug\net5.0\Razor\Views\CarrinhoCompra\Index.cshtml.g.cs
 C:\Users\Mateus Santos\source\repos\LanchesMac\LanchesMac\obj\Debug\net5.0\Razor\Views\Shared\_Carousel.cshtml.g.cs
+C:\Users\Mateus Santos\source\repos\LanchesMac\LanchesMac\obj\Debug\net5.0\Razor\Views\Shared\Components\CarrinhoCompraResumo\Default.cshtml.g.cs
+C:\Users\Mateus Santos\source\repos\LanchesMac\LanchesMac\obj\Debug\net5.0\Razor\Views\Contato\Index.cshtml.g.cs
