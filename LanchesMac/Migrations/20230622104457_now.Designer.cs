@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LanchesMac.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20210714021152_CarrinhoCompraItem")]
-    partial class CarrinhoCompraItem
+    [Migration("20230622104457_now")]
+    partial class now
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,7 +42,7 @@ namespace LanchesMac.Migrations
 
                     b.HasIndex("LancheId");
 
-                    b.ToTable("CarrinhoCompraItems");
+                    b.ToTable("CarrinhoCompraItens");
                 });
 
             modelBuilder.Entity("LanchesMac.Models.Categoria", b =>
